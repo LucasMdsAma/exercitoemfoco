@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/exercitoemfocologo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Exercito Brasileiro</title>
+</head>
+<body>
+    <header>
+        <h1>Exercito Brasileiro</h1>
+        <nav>
+        <li><a href="./login.html" class="cabecalho">Entrar</a></li>  
+        <li><a href="./cadastro.html" class="cabecalho">Cadastrar</a></li>
+        <li><a href="../suporte.html" class="cabecalho">Suporte</a></li>    
+        </nav>    
+    </header>
+    
+<div class="flogin">
+    <form action="conexao.php" method="post" autocomplete="on">
+        <h1>Entrar</h1>
+        <p><label for="ilcadastroemail">Email: </label> <input type="email" name="ncadastroemail" id="ilcadastroemail" required placeholder="exercitobr@educacaosp.gov" autocomplete="email"></p>
+        <p><label for="isenha">Senha</label> <input type="password" name="nsenha" id="isenha" required minlength="8" placeholder="Confirmar senha"></p>
+        <p><input type="submit" value="Entrar" name="nentrar" id="ientrar"></p>
+    </form>
+</div>
+</body>
+</html>
