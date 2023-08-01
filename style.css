@@ -14,11 +14,11 @@ background-color:blue;
  border-bottom:3px solid black;
 }
 
-nav li{
+.navbar li{
  list-style:none;
 }
  
-nav a{
+.navbar a{
  color:white;
  text-decoration:none;
 }
