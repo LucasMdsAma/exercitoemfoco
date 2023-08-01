@@ -1,19 +1,21 @@
 * {
 margin:0;
-box-shadow:inline-block;
+display:inline-block;
 }
 
 body{
 background-color:blue;
 }
 
-nav{
+.navbar{
  background-color:gray;
  border:2px solid red;
  height:50px:
+ border-bottom:3px solid black;
 }
 
 nav li{
+ flex-box
  list-style:none;
 }
  
