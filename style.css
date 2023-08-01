@@ -2,23 +2,3 @@
 margin:0;
 display:inline-block;
 }
-
-body{
-background-color:blue;
-}
-
-.navbar{
- background-color:gray;
- border:2px solid red;
- height:50px;
- border-bottom:3px solid black;
-}
-
-.navbar li{
- list-style:none;
-}
- 
-.navbar a{
- color:white;
- text-decoration:none;
-}
