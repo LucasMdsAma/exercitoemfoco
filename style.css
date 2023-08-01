@@ -8,10 +8,16 @@ background-color:blue;
 }
 
 nav{
+ background-color:gray;
  border:2px solid red;
  height:50px:
 }
 
+nav li{
+ list-style:none;
+}
+ 
 nav a{
+ color:white;
  text-decoration:none;
 }
